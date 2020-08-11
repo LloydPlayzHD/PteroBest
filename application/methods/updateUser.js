@@ -11,7 +11,7 @@ const req = require('../ApplicationRequest.js');
  * @param {String} Language New (or old) language
  */
 function updateUser(UserID, Username, Password, Email, FirstName, LastName, IsAdmin, Language) {
-	const Req = new req(process.env.APPLICATION_PTEROJS_HOST, process.env.APPLICATION_PTEROJS_KEY);
+	const Req = new req(process.env.APPLICATION_PTEROBEST_HOST, process.env.APPLICATION_PTEROBEST_KEY);
 	const data = createData(Username, Password, Email, FirstName, LastName, IsAdmin, Language);
 	return Req.patchRequest('EditUser', data, UserID);
 }

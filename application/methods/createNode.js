@@ -23,7 +23,7 @@ function createNode(Name, Description, LocationID, Public, FQDN, Scheme, BehindP
 	Disk, DiskOverallocate, DaemonDir, DaemonPort, DaemonSFTPPort, MaintenceMode, MaxUploadSize) {
 	const data = makeData(Name, Description, LocationID, Public, FQDN, Scheme, BehindProxy, RAM, RAMOverAllocate,
 		Disk, DiskOverallocate, DaemonDir, DaemonPort, DaemonSFTPPort, MaintenceMode, MaxUploadSize);
-	const Req = new req(process.env.APPLICATION_PTEROJS_HOST, process.env.APPLICATION_PTEROJS_KEY);
+	const Req = new req(process.env.APPLICATION_PTEROBEST_HOST, process.env.APPLICATION_PTEROBEST_KEY);
 	return Req.postRequest('CreateNode', data, null);
 }
 

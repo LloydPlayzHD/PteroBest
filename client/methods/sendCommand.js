@@ -5,7 +5,7 @@ const req = require('../ClientRequest.js');
  * @param {String} Command Command to send
  */
 function sendCommand(ServerID, Command) {
-	const Req = new req(process.env.CLIENT_PTEROJS_HOST, process.env.CLIENT_PTEROJS_KEY);
+	const Req = new req(process.env.CLIENT_PteroBest_HOST, process.env.CLIENT_PteroBest_KEY);
 	const data = { 'command': Command };
 	return Req.postRequest('SendCommand', data, ServerID);
 }

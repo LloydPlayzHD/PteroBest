@@ -1,14 +1,14 @@
 {
-  "_from": "github:lloydplayzhd/pterojs",
+  "_from": "github:lloydplayzhd/PteroBest",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/pterojs",
+  "_location": "/PteroBest",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "github:lloydplayzhd/pterojs",
-    "rawSpec": "github:lloydplayzhd/pterojs",
-    "saveSpec": "github:lloydplayzhd/pterojs",
+    "raw": "github:lloydplayzhd/PteroBest",
+    "rawSpec": "github:lloydplayzhd/PteroBest",
+    "saveSpec": "github:lloydplayzhd/PteroBest",
     "fetchSpec": null,
     "gitCommittish": null
   },
@@ -16,28 +16,28 @@
     "#USER",
     "/"
   ],
-  "_resolved": "github:lloydplayzhd/pterojs#b175d458981f0f8e3646da556960fdda81a32e5c",
-  "_spec": "github:lloydplayzhd/pterojs",
+  "_resolved": "github:lloydplayzhd/PteroBest#b175d458981f0f8e3646da556960fdda81a32e5c",
+  "_spec": "github:lloydplayzhd/PteroBest",
   "_where": "C:\\Users\\lloyd\\Desktop\\Beta Bot",
   "author": "Lloyd",
   "bugs": {
-    "url": "https://github.com/LloydPlayzHD/PteroJS/issues"
+    "url": "https://github.com/LloydPlayzHD/PteroBest/issues"
   },
   "dependencies": {
     "axios": "^0.19.2"
   },
   "deprecated": false,
   "description": "Ptero API js",
-  "homepage": "https://github.com/LloydPlayzHD/PteroJS#readme",
+  "homepage": "https://github.com/LloydPlayzHD/PteroBest#readme",
   "keywords": [
-    "PteroJs"
+    "PteroBest"
   ],
   "license": "ISC",
-  "main": "PteroJs.js",
-  "name": "@lloydbest/pterojs",
+  "main": "PteroBest.js",
+  "name": "@lloydbest/PteroBest",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LloydPlayzHD/PteroJS.git"
+    "url": "git+https://github.com/LloydPlayzHD/PteroBest.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

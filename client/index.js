@@ -25,8 +25,8 @@ const sendcommand = require('./methods/sendCommand.js');
 function login(HOST, KEY, callback) {
 	HOST = HOST.trim();
 	if(HOST.endsWith('/')) HOST = HOST.slice(0, -1);
-	process.env.CLIENT_PTEROJS_HOST = HOST;
-	process.env.CLIENT_PTEROJS_KEY = KEY;
+	process.env.CLIENT_PteroBest_HOST = HOST;
+	process.env.CLIENT_PteroBest_KEY = KEY;
 	axios.get(HOST + '/api/client', {
 		responseEncoding: 'utf8',
 		maxRedirects: 5,
@@ -41,8 +41,8 @@ function login(HOST, KEY, callback) {
 function fastLogin(HOST, KEY) {
 	HOST = HOST.trim();
 	if(HOST.endsWith('/')) HOST = HOST.slice(0, -1);
-	process.env.CLIENT_PTEROJS_HOST = HOST;
-	process.env.CLIENT_PTEROJS_KEY = KEY;
+	process.env.CLIENT_PteroBest_HOST = HOST;
+	process.env.CLIENT_PteroBest_KEY = KEY;
 }
 
 

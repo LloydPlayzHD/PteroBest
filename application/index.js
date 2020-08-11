@@ -32,8 +32,8 @@ function login(HOST, KEY, callback) {
 	HOST = HOST.trim();
 	if(HOST.endsWith('/')) HOST = HOST.slice(0, -1);
 
-	process.env.APPLICATION_PTEROJS_HOST = HOST;
-	process.env.APPLICATION_PTEROJS_KEY = KEY;
+	process.env.APPLICATION_PTEROBEST_HOST = HOST;
+	process.env.APPLICATION_PTEROBEST_KEY = KEY;
 	axios.get(HOST + '/api/application/users', {
 		responseEncoding: 'utf8',
 		maxRedirects: 5,
@@ -69,8 +69,8 @@ function fastLogin(HOST, KEY) {
 	HOST = HOST.trim();
 	if(HOST.endsWith('/')) HOST = HOST.slice(0, -1);
 
-	process.env.APPLICATION_PTEROJS_HOST = HOST;
-	process.env.APPLICATION_PTEROJS_KEY = KEY;
+	process.env.APPLICATION_PTEROBEST_HOST = HOST;
+	process.env.APPLICATION_PTEROBEST_KEY = KEY;
 }
 
 module.exports = {

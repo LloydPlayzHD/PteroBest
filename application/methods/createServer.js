@@ -21,7 +21,7 @@ function createServer(Version, NameOfServer, OwnerID, NestID, EggID, DockerImage
 	StartupCmd, RAM, Swap, Disk, IO, CPU,
 	AmountOfDatabases, AmountOfAllocations) {
 	const data = makeData(Version, NameOfServer, OwnerID, NestID, EggID, DockerImage, StartupCmd, RAM, Swap, Disk, IO, CPU, AmountOfDatabases, AmountOfAllocations);
-	const Req = new req(process.env.APPLICATION_PTEROJS_HOST, process.env.APPLICATION_PTEROJS_KEY);
+	const Req = new req(process.env.APPLICATION_PTEROBEST_HOST, process.env.APPLICATION_PTEROBEST_KEY);
 	return Req.postRequest('CreateServer', data, null);
 }
 

@@ -4,7 +4,7 @@ const req = require('../ApplicationRequest.js');
  */
 
 function getAllUsers(page) {
-	const Req = new req(process.env.APPLICATION_PTEROJS_HOST, process.env.APPLICATION_PTEROJS_KEY);
+	const Req = new req(process.env.APPLICATION_PTEROBEST_HOST, process.env.APPLICATION_PTEROBEST_KEY);
 	if(page !== undefined) return Req.getRequest('GetAllUsersPagination',page);
 	return Req.getRequest('GetAllUsers', null);
 }
