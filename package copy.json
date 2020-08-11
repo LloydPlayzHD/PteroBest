@@ -1,0 +1,46 @@
+{
+  "_from": "github:lloydplayzhd/pterojs",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/pterojs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:lloydplayzhd/pterojs",
+    "rawSpec": "github:lloydplayzhd/pterojs",
+    "saveSpec": "github:lloydplayzhd/pterojs",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:lloydplayzhd/pterojs#b175d458981f0f8e3646da556960fdda81a32e5c",
+  "_spec": "github:lloydplayzhd/pterojs",
+  "_where": "C:\\Users\\lloyd\\Desktop\\Beta Bot",
+  "author": "Lloyd",
+  "bugs": {
+    "url": "https://github.com/LloydPlayzHD/PteroJS/issues"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "deprecated": false,
+  "description": "Ptero API js",
+  "homepage": "https://github.com/LloydPlayzHD/PteroJS#readme",
+  "keywords": [
+    "PteroJs"
+  ],
+  "license": "ISC",
+  "main": "PteroJs.js",
+  "name": "@lloydbest/pterojs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LloydPlayzHD/PteroJS.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

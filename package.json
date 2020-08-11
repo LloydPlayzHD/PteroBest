@@ -1,0 +1,25 @@
+{
+  "name": "pterobest",
+  "version": "1.0.0",
+  "description": "PTerobs",
+  "main": "PteroJs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LloydPlayzHD/PteroJS.git"
+  },
+  "author": "LloydBest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LloydPlayzHD/PteroJS/issues"
+  },
+  "homepage": "https://github.com/LloydPlayzHD/PteroJS#readme",
+  "keywords": [
+    "PteroBest"
+  ]
+}
